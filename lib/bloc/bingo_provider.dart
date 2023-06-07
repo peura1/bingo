@@ -13,7 +13,7 @@ class BingoProvider {
   Future<void> init() async {
     List<String> checkedItems = await BingoStorage().getItems();
     List<BingoItem> items = allItems
-        .map((e) => BingoItem(e, checkedItems.contains(e) ? true : false))
+        .map((e) => BingoItem(e, checkedItems.contains(e)))
         .toList();
     _setItems(items);
   }
