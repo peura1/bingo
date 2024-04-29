@@ -44,10 +44,10 @@ class MainPage extends StatelessWidget {
               Container(
                 height: 50,
               ),
-              Card(
+              const Card(
                 child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Column(children: const [
+                  padding: EdgeInsets.all(8.0),
+                  child: Column(children: [
                     Text(
                       'Wappubingo',
                       style: TextStyle(

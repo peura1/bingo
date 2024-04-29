@@ -1,8 +1,8 @@
 List<String> allItems = [
   "Ota yhteiskuva eri ainejärjestöläisen kanssa",
   "Opeta muille jokin tanssiliike",
-  "Laula käräokessa",
-  "Näytä jokin temppu järkkääjille",
+  "Laula karaokessa",
+  "Osallistu juomapeliin",
   "Voita kivi-sakset-paperi",
   "Ota shotti",
   "Voita joku juomapeli",
